@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+}
+.menu{
+    /* margin-bottom: 50px; */
+    clear: both;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin-right: 100px;
+    
+}
+li>a{
+    text-decoration: none;
+    display: inline;
+    float: right;
+    margin: 10px 20px;
+    font-size: 1.5em;
+    color: #242424;
+    font-weight: 550;
+}
+.intro-area,.about{
+    height: 500px;
+    clear: both;
+    /* border: 2px solid red; */
+}
+
+div{
+    width: 40%;
+    float: left;
+}
+
+.text-highlights{
+    color:chocolate;
+    text-transform: uppercase;
+}
+.gap{
+    margin-bottom: 40px;
+}
+
+.button{
+    margin-top: 50px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,salmon,tomato);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 5px;
+
+}
+h1{
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+.pblock{
+    display: block;
+}
+
+img{
+    width: 70%;
+    height: 80%;
+
+}
+.dev-intro,.about-text{
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 10px;
+}
+.dev-img,.about-img{
+    margin-left: 100px;
+}
+
+.showcase-area{
+    text-align: center;
+    clear: both;
+    height: 700px;
+    background-color: #F8F9FC;
+    border: 2px solid white;
+}
+
+.showcase-area>div{
+    width: 25%;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    margin-left: 50px;
+}
+.sc{
+    width: 100%;
+}
+#heading{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.chat-area{
+    height: 200px;
+    
+}
+.chat{
+    width:60%;
+
+    margin-left: 18%;
+    margin-right: 18%;
+    border: 1px solid red;
+    align-items: center;
+    background-image: url(images/Group_33094_1.png);
+}
+.inline{
+    display: inline-block;
+}
+.block-a{
+    float: right;
+    margin-bottom: 10px;
+}
+    
