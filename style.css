@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     clear: both;
+    
 }
 .menu{
     /* margin-bottom: 50px; */
@@ -35,11 +36,14 @@ div{
 }
 
 .text-highlights{
-    color:chocolate;
+    color: #FF8367;
     text-transform: uppercase;
 }
 .gap{
     margin-bottom: 40px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
 }
 
 .button{
@@ -51,9 +55,31 @@ div{
     border-radius: 5px;
 
 }
+.hello{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 h1{
-    font-size: 2.5em;
+    font-size: 80px;
+    color: #363958;
     text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+}
+h2{
+    font-size: 50px;
+    font-weight: 450;
+    color: #363958;
+    /* margin-bottom: 0; */
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+
+}
+#h2{
+    margin-bottom: 0px;
+}
+h3{
+    color: #363958;
 }
 .pblock{
     display: block;
@@ -71,24 +97,25 @@ img{
 }
 .dev-img,.about-img{
     margin-left: 100px;
+    margin-top: 100px;
 }
 
 .showcase-area{
-    text-align: center;
+    text-align: left;
     clear: both;
     height: 700px;
     background-color: #F8F9FC;
     border: 2px solid white;
 }
 
-.showcase-area>div{
+.showcase-area>div,.clients-feedback>div{
     width: 25%;
     float: left;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 10px;
     padding: 10px;
     background-color: white;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 .sc{
     width: 100%;
@@ -100,23 +127,92 @@ img{
 }
 
 .chat-area{
-    height: 200px;
+    height: 300px;
+    margin-top: 100px;
+    
     
 }
 .chat{
-    width:60%;
-
-    margin-left: 18%;
-    margin-right: 18%;
-    border: 1px solid red;
+    width:50%;
+    height: auto;
+    margin-left: 22%;
+    margin-right: 22%;
     align-items: center;
     background-image: url(images/Group_33094_1.png);
-}
-.inline{
-    display: inline-block;
-}
-.block-a{
-    float: right;
-    margin-bottom: 10px;
-}
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
     
+}
+
+.work-para{
+    font-size: 55px;
+    float: left;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+.a{
+    float: right;
+    display: inline;
+    margin-top: 12%;
+}
+
+.clients-face{
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    border: 2px solid  rgba(0,0,0,0.2);
+
+    
+    
+}
+.clients{
+    text-align: center;
+    margin-top: 30px;
+
+    
+}
+.clients-feedback{
+    height: 700px;
+    background-color: #F8F9FC;
+    border: 1px solid white;
+}
+.clients-heading{
+    margin-top: 100px;
+    tab-size: 46px;
+    text-align: center;
+}
+h4{
+    font-size: large;
+    font-family: Bebas Neue;
+    color: #696871;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.email{
+    margin-top: 0;
+    text-transform: lowercase;
+    font-family: serif;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.icon-pic{
+    width: 10%;
+    height: 10;
+    margin: 15px;
+}
+.icon-list{
+    margin: auto;
+    display: inline;
+    align-content: center;
+}
+footer>div{
+    margin-left: 39%;
+    margin-right: 35%;
+    margin-top: 0;
+}
